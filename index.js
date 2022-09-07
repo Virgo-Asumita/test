@@ -10,7 +10,6 @@ export class fa {
         this.name = name;
         this.age = age;
     }
-    say() {
-        console.log(this.age);
-    }
 }
+export const son = "jack";
+
