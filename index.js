@@ -5,3 +5,5 @@ const div = document.querySelector('div');
 div.onclick = () => {
     console.log(div.offsetHeight);
 }
+
+export const son = "jack";
