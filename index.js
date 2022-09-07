@@ -5,3 +5,12 @@ const div = document.querySelector('div');
 div.onclick = () => {
     console.log(div.offsetHeight);
 }
+export class fa {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    say() {
+        console.log(this.age);
+    }
+}
